@@ -1,12 +1,6 @@
 ##########	READ ME	 ##########
 
-Steven Rappe
-srappe@uoregon.edu
 
-CIS 451
-Fall 2014
-
-Final Project
 Northwest Banking Database
 
 Important things to know:
@@ -15,7 +9,7 @@ Important things to know:
 		file explains the location of the important information.
 
 2.		The URL Page has the links to the main pages of the project
-		website. All other pages can be reached from homePage.html.
+		website. All other pages can be reached from index.html.
 
 
 3.		The User's Guide page in the write up file explains how to 
