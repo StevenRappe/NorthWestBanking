@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> Search for People </title>
+		<hr>
+		
+		<h1> Northwest Banking </h1>
+		
+		<hr>
+		
+		<h2> Search for People </h2>
+
+	</head>
+	<body>
+
+		<a href="homePage.html"> Home Page </a>
+		<p>
+
+		<a href="accountActivity.html"> Account Activity </a>
+		<p>
+
+		<a href="branch.html"> Search by Branch </a>
+		<p>
+		
+		<hr>
+		
+		<h3> Search customers by their Card Carrier </h3>
+		Choose between VISA and MasterCard
+		<form action="cardCarrier.php" method="POST">
+
+			<input type="text" name="card_carrier"> <br>
+			<input type="submit" value="submit">
+			<input type="reset" value="erase">
+		</form>
+		
+		<hr>
+		
+		<h3> Search for employees by their job title </h3>
+		Input a job title
+
+		<form action="employeeSearch.php" method="POST">
+
+		<input type="text" name="job_title"> <br>
+		<input type="submit" value="submit">
+		<input type="reset" value="erase">
+		</form>
+		
+		<hr>
+		
+		<a href="people.txt"> Code for this page</a>
+		and code for PHP files:
+		<a href="cardCarrier.txt"> cardCarrier.php</a>
+		
+		<a href="employeeSearch.txt"> employeeSearch.php</a>
+
+	</body>
+
+</html>

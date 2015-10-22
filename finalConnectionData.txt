@@ -1,0 +1,9 @@
+<?php
+
+$server = "ix.cs.uoregon.edu";
+$dbname ="NorthwestBank";
+$user = "steven";
+$pass = "Chocolate12";
+$port="3247";
+
+?>

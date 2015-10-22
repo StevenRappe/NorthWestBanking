@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styleSheet.css">
+	<title> Search by Branch </title>
+</head>
+
+<body>
+	<div class="containerOuter">
+		
+		<div class="title">
+			<h1> Northwest Banking </h1>
+			<h3> Management System </h3>
+		</div>
+
+		<div class="containerInner">
+			
+			<div class="toolbar">
+
+				<div class="menuPanel">
+					<h4> Menu </h4>
+					<hr>
+					<a href="homePage.html" class="menuButton"> Home Page</a>
+					<hr>
+
+					<a href="accountActivity.html" class="menuButton"> Account Activity </a>
+					<hr>
+
+					<a href="people.html" class="menuButton"> People </a>
+					<hr>
+					<a href="branch.html" class="menuButton"> Branch </a>
+					<hr>
+				</div>
+			</div>
+			
+			<div class="content">
+
+				<div class="heading">
+					<h2> Search by Branch </h2>
+					<h3> Perform queries by branch location </h3>
+				</div>
+
+				<div class="form">
+					<h5> Search for customers by their home branch </h5>
+					Enter a branch by its id number
+					<form action="customerBranch.php" method="POST">
+
+						<input type="text" name="branch_num"> <br>
+						<input type="submit" value="submit">
+						<input type="reset" value="erase">
+					</form>
+				</div>
+
+				<div class="form">
+					
+					<h5> Search for employees by their associated branch </h5>
+					Enter a branch by its id number
+					<form action="employeeBranch.php" method="POST">
+
+						<input type="text" name="branch_num"> <br>
+						<input type="submit" value="submit">
+						<input type="reset" value="erase">
+					</form>
+				</div>
+
+				<div class="form">
+					
+					<h5> Search for a branch manager by associated branch </h5>
+					Enter a branch by its id number
+					<form action="managerBranch.php" method="POST">
+
+						<input type="text" name="branch_num"> <br>
+						<input type="submit" value="submit">
+						<input type="reset" value="erase">
+					</form>
+				</div>
+
+				<div class="footer">
+					
+					Code for associated PHP files:
+					
+					<a href="customerBranch.txt"> customerBranch.php</a>
+					
+					<a href="employeeBranch.txt"> employeeBranch.php</a>
+					
+					<a href="managerBranch.txt"> managerBranch.php</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</body>

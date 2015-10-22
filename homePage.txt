@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> Home Page </title>
+		<hr>
+		
+		<h1> Northwest Banking </h1>
+		<h3> By Steven Rappe </h3>
+		<p>
+		
+		<h2> Home Page </h2>
+		<p>
+		<hr>
+		
+		<h3> Welcome to the Northwest Banking database system </h3>
+		<p>
+		
+	</head>
+	<body>
+		
+		<hr>
+		<p>
+		
+		Select Account Activity to perform queries about previous transactions.
+		<p>
+		<a href="accountActivity.html"> Account Activity </a>
+		
+		<hr>
+		<p>
+		
+		Select People to perform queries about personal information.
+		<p>
+		<a href="people.html"> People </a>
+		
+		<hr>
+		<p>
+		
+		Select Branch to perform queries based on different types of peoples' locations.		
+		<p>
+		<a href="branch.html"> Branch </a>
+		
+		<hr>
+		<h4> Northwest Banking is committed to giving consistent information to our regional managers. </h4>
+		<p>
+		
+		<h4> Select a link above to get started! </h4>
+		<hr>
+		
+		<a href="homePage.txt"> Code for this page </a>
+		<p>
+		
+		<a href="physicalDatabaseDesign.html"> Physical Database Design </a>
+		<p>
+	</body>
+</html>

@@ -1,0 +1,116 @@
+html, body {
+
+	/*background-image: url("Background2.jpg");*/
+	background-size: 100% 100%;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+h1 {
+	font: 3.0em/20px Times;
+}
+h2 {
+	font: 2.2em/10px Times;
+}
+h3 {
+	font: 1.4em/10px Times;
+	text-align: center;
+}
+h4 {
+	font: 2.0em/20px Times;
+}
+h5 {
+	font: 1.3em/10px Times;
+}
+.containerOuter {
+	width: 100%;
+	height: 100%;
+}
+.title {
+	height: 20%;
+	float: left;
+	width: 100%;
+	text-align: center;
+	background-color: red;
+	border-bottom: 1px solid black;
+	position: relative;
+	box-shadow: 2px 2px 2px;
+}
+.containerInner {
+	float: right;
+	width: 100%;
+	height: 80%;
+}
+.toolbar {
+	display: block;
+	width: 15%;
+	background-color: red;
+	height: 100%;
+	float:left;
+}
+.menuPanel {
+	width: 150px;
+	height: 300px;
+	background-color: white;
+	margin-left: 25px;
+	margin-top: 100px;
+	text-align: center;
+	box-shadow: 2px 2px 2px;
+}
+.menuButton {
+	font: 1.3em/40px solid Arial Helvetica;
+	color: black;
+}
+.menuButton:hover {
+	color: blue;
+}
+.content {
+	width: 85%;
+	float: right;
+}
+.heading {
+	float: left;
+	height: 100px;
+	width: 100%;
+	background-color: blue;
+	box-shadow: 2px 2px 2px;
+	text-align: center;
+}
+.form {
+	margin: 30px;
+	width: 490px;
+	height: 130px;
+	float: left;
+}
+.panel {
+	font: 1.2em/30px solid Times;
+	margin: 30px;
+	width: 480px;
+	height: 250px;
+	float: left;
+}
+.footer {
+	float: left;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	margin: 10px;
+	font: 1.1em/20px solid Times;
+}
+.dbLink {
+	display: block;
+	height: 60px;
+	width: 480px;
+	text-align: center;
+	background-color: blue;
+	font: 1.8em/60px solid Times;
+	color: black;
+	box-shadow: 2px 2px 2px;
+}
+.dbLink:hover {
+	background-color: rgba(0, 0, 0, 0.4);
+}

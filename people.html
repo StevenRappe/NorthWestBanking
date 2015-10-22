@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styleSheet.css">
+	<title> Search for People </title>
+</head>
+
+<body>
+	<div class="containerOuter">
+
+		<div class="title">	
+			<h1> Northwest Banking </h1>
+			<h3> Management System </h3>
+		</div>
+		
+		<div class="containerInner">
+
+			<div class="toolbar">
+
+				<div class="menuPanel">
+					<h4> Menu </h4>
+					<hr>
+					<a href="homePage.html" class="menuButton"> Home Page </a>
+					<hr>
+
+					<a href="accountActivity.html" class="menuButton"> Account Activity </a>
+					<hr>
+					<a href="people.html" class="menuButton"> People </a>
+					<hr>
+					<a href="branch.html" class="menuButton"> Branch </a>
+					<hr>
+				</div>
+			</div>
+			
+			<div class="content">
+
+				<div class="heading">
+					<h2> Search for People </h2>
+					<h3> Perform queries about employee personal information </h3>
+				</div>
+				
+				<div class="form">
+					<h5> Search for customers by their card carrier </h5>
+					
+					Choose between VISA and MasterCard
+
+					<form action="cardCarrier.php" method="POST">
+
+						<input type="text" name="card_carrier"> <br>
+						<input type="submit" value="submit">
+						<input type="reset" value="erase">
+					</form>
+				</div>
+
+				<div class="form">
+					
+					<h5> Search for employees by their job title </h5>
+					Input a job title
+
+					<form action="employeeSearch.php" method="POST">
+
+					<input type="text" name="job_title"> <br>
+					<input type="submit" value="submit">
+					<input type="reset" value="erase">
+					</form>
+				</div>
+
+				<div class="footer">
+					
+					
+					Code for associated PHP files:
+					<a href="cardCarrier.txt"> cardCarrier.php</a>
+					
+					<a href="employeeSearch.txt"> employeeSearch.php</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</body>
