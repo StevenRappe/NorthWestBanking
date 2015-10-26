@@ -3,17 +3,8 @@
 
 Northwest Banking Database
 
-Important things to know:
+Pairs with a MySQL database, using PHP prepared statements to execute SQL queries.
 
-1.		The table of contents page in the CIS451FinalProjectWriteUp
-		file explains the location of the important information.
+The database depicts a fictional bank management system used to track information.
 
-2.		The URL Page has the links to the main pages of the project
-		website. All other pages can be reached from index.html.
-
-
-3.		The User's Guide page in the write up file explains how to 
-		enter the database queries.
-		
-4.		Guest account information is:	Name: 		guest
-										Password:s	guest
+	-Database is not currently active.
