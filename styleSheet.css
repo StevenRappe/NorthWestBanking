@@ -20,7 +20,8 @@ h3 {
 	text-align: center;
 }
 h4 {
-	font: 2.0em/20px Times;
+	padding-top: 10px;
+	font: 2.0em/10px Times;
 }
 h5 {
 	font: 1.3em/10px Times;
@@ -53,7 +54,7 @@ h5 {
 }
 .menuPanel {
 	width: 150px;
-	height: 300px;
+	height: 294px;
 	background-color: white;
 	margin-left: 25px;
 	margin-top: 100px;
